@@ -1,11 +1,14 @@
 {
-  "name": "first-dapp",
+  "name": "mood-dapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dmytro Ohanv",
   "license": "MIT"
 }
