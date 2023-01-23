@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "src": "index"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dmytro Ohanv",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.1"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4"
+  }
 }
